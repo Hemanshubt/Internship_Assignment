@@ -1,0 +1,9 @@
+[2024-04-22 10:00:01] INFO: Request received - /api/user/123
+[2024-04-22 10:00:02] INFO: Processing request for user 123
+[2024-04-22 10:00:03] ERROR: Internal server error occurred for user 123
+[2024-04-22 10:00:04] INFO: Request received - /api/product/456
+[2024-04-22 10:00:05] INFO: Processing request for product 456
+[2024-04-22 10:00:06] INFO: Request completed successfully for product 456 (HTTP 200)
+[2024-04-22 10:00:07] INFO: Request received - /api/user/789
+[2024-04-22 10:00:08] INFO: Processing request for user 789
+[2024-04-22 10:00:09] ERROR: User not found - user 789 (HTTP 404)
