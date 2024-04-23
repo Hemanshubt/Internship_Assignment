@@ -4,9 +4,11 @@ Here's how the script works:
 
 #The analyze_log_entries function takes an iterable of log entries and performs basic analysis:
 
-      #It counts the occurrences of the word "error" (case-insensitive) using a regular expression pattern.
-      #It extracts HTTP status codes from log entries using another regular expression pattern and counts their occurrences using a Counter object.
-      #It logs the number of error messages and the top HTTP status codes with their counts.
+#It counts the occurrences of the word "error" (case-insensitive) using a regular expression pattern.
+
+#It extracts HTTP status codes from log entries using another regular expression pattern and counts their occurrences using a Counter object.
+
+#It logs the number of error messages and the top HTTP status codes with their counts.
       
 #The main function is the entry point of the script. It calls the monitor_log_file function with the path to the log file (access.log in this example) and passes the log entries to the analyze_log_entries function for analysis.
 
