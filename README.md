@@ -1,6 +1,6 @@
  how the script works:
 
-#The monitor_log_file function takes a log file path as an argument and continuously monitors the file for new entries using a generator function. It yields new lines as they are added to the file. The function handles keyboard interrupts (Ctrl+C) and other exceptions.
+#.It yields new lines as they are added to the file. The function handles keyboard interrupts (Ctrl+C) and other exceptions.
 
 #The analyze_log_entries function takes an iterable of log entries and performs basic analysis:
 
